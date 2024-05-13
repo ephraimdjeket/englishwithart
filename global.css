@@ -1,0 +1,78 @@
+:root {
+  --primaryColor: #022936;
+  --secondaryColor: #006278;
+  --thirdColor: #c54a4a;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+}
+
+/* BEGINNING OF HERO SECTION */
+
+.hero-content {
+  max-width: 450px;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.welcome-text,
+.hero-special {
+  color: var(--secondaryColor);
+  font-weight: 700;
+}
+
+.hero-special {
+  background-color: rgb(0, 98, 120, 0.2);
+  border: 2px solid var(--secondaryColor);
+}
