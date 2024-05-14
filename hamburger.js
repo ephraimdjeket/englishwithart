@@ -2,6 +2,8 @@ const hamburgerBtn = document.querySelector(".hamburger");
 const closeBtn = document.querySelector(".close");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navLinks = document.querySelector("ul");
+const main = document.querySelector("main");
+const footer = document.querySelector("footer");
 
 hamburgerBtn.addEventListener("click", () => {
   hamburgerMenu.classList.toggle("hide");

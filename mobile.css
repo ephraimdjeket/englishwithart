@@ -1,6 +1,6 @@
 @import url("global.css");
 
-@media screen and (max-width: 32rem) {
+@media screen and (max-width: 33rem) {
   .hamburger {
     display: block;
     transition: 0.3s ease;
@@ -16,21 +16,26 @@
   .hamburger-menu {
     position: absolute;
     background-color: var(--secondaryColor);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0.5px 1px 1px);
     height: 10rem;
     width: 100%;
     top: 40px;
     transition: 0.3s ease;
+    z-index: 998;
+    filter: none;
   }
 
   ul {
     position: absolute;
     top: 140%;
+    left: 30px;
     line-height: 2;
     transition: 2s ease;
     font-size: 1rem;
     font-weight: 500;
     color: white;
     cursor: pointer;
+    z-index: 999;
   }
 
   li a:hover {
@@ -71,13 +76,7 @@
 
   .hero-content {
     max-width: 450px;
-    padding: 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
+    gap: 1rem;
   }
 
   .welcome-text,
@@ -93,13 +92,231 @@
   .hero-title {
     font-weight: 700;
     font-size: clamp(1.8rem, 8vw, 2.5rem);
-    padding: 1rem 0rem;
-    line-height: 1.4;
+  }
+
+  .hero-text {
+    line-height: 1.3;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
   }
 
   .hero-special {
     background-color: rgb(0, 98, 120, 0.2);
     padding: 0.2rem 0.5rem;
     border: 2px solid var(--secondaryColor);
+  }
+
+  .hero-buttons {
+    width: 100%;
+    max-width: 240px;
+  }
+
+  .stroke-btn {
+    color: black;
+  }
+
+  .dark-cyan-btn,
+  .stroke-btn,
+  .personal-btn,
+  .dark-crimson-btn {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .hero-image {
+    margin: auto;
+    max-width: 350px;
+    position: relative;
+  }
+
+  .hero-arta {
+    position: relative;
+  }
+
+  .english-box {
+    height: 60px;
+    width: 250px;
+    top: 60%;
+    left: 0%;
+  }
+
+  .english-flag {
+    width: 60px;
+    height: 60px;
+  }
+
+  .english-text {
+    font-size: 0.8rem;
+  }
+
+  /* BEGINNING OF "PROVIDED FEATURES" SECTION */
+
+  .features-section {
+    flex-direction: column;
+  }
+
+  .features-wrapper {
+    flex-direction: column;
+    max-width: 240px;
+  }
+
+  .feature-card,
+  .feature-price-card {
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 10px;
+  }
+
+  .feature-card img {
+    width: 100px;
+  }
+
+  /* BEGINNING OF "PROVIDED FEATURES" SECTION */
+
+  .bitmoji-floating,
+  .bitmoji-yes,
+  .hero-arta-about {
+    max-width: 220px;
+  }
+
+  .bitmoji-yes {
+    position: relative;
+    right: 40px;
+  }
+
+  .square-teal {
+    top: 40px;
+    left: -20px;
+  }
+
+  .square-cyan {
+    bottom: -50px;
+    left: -10px;
+  }
+
+  .square-teal,
+  .square-cyan,
+  .square-crimson,
+  .square-teal-second {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  /*Square Second Row */
+
+  .square-teal-second {
+    top: 21px;
+    right: -30px;
+    position: absolute;
+  }
+
+  .square-crimson {
+    background-color: var(--thirdColor);
+    bottom: -30px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .services-section h2,
+  .me-h2 {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .first-row,
+  .second-row,
+  .aboutme-section p {
+    max-width: 270px;
+  }
+
+  .first-row,
+  .second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    line-height: 1.5;
+    gap: 2rem;
+    padding: 2rem 0rem;
+  }
+
+  .bitmoji-floating-text,
+  .bitmoji-yes-text {
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .bitmoji-floating-text h2,
+  .bitmoji-yes-text h2 {
+    text-align: left;
+    font-size: clamp(1.7rem, 4vw, 1.9rem);
+  }
+
+  /* BEGINNING OF "GET TO KNOW ME" SECTION */
+
+  .footer-bg {
+    position: relative;
+  }
+
+  .aboutme-section {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 3rem 0rem;
+    line-height: 1.5;
+    color: white;
+  }
+
+  .aboutme-section h2 {
+    padding-bottom: 2rem;
+  }
+
+  /* BEGINNING OF "PRICE CARD" SECTION */
+
+  .feature-price-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .feature-price-card h2,
+  h3 {
+    font-weight: 700;
+  }
+
+  .doller-sign {
+    font-size: 1.25rem;
+  }
+
+  .feature-price-card h3 {
+    font-size: 2.5rem;
+    color: var(--secondaryColor);
+  }
+
+  .hero-arta-about {
+    position: absolute; /* Positions the element absolutely within its containing element */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers the element horizontally */
+    align-items: center; /* Centers the element vertically */
+    margin: 0; /* Removes any default margin */
+    top: 50%; /* Positions the element vertically centered */
+    transform: translateY(
+      -50%
+    ); /* Adjusts the vertical position to center it */
+    left: 0; /* Aligns the element with the left edge of its containing element */
   }
 }
