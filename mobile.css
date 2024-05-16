@@ -214,8 +214,8 @@
 
   .square-crimson {
     background-color: var(--thirdColor);
-    bottom: -30px;
-    right: 0px;
+    bottom: -10px;
+    right: -10px;
     position: absolute;
   }
 
@@ -231,7 +231,9 @@
   }
 
   .services-section h2,
-  .me-h2 {
+  .me-h2,
+  .contact-text h2,
+  .questions-h2 {
     font-weight: 700;
     text-align: center;
   }
@@ -272,19 +274,23 @@
   }
 
   .aboutme-section {
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
     text-align: left;
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
     line-height: 1.5;
-    color: white;
+    color: black;
+    max-width: 320px;
   }
 
   .aboutme-section h2 {
-    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    text-align: center;
   }
 
   /* BEGINNING OF "PRICE CARD" SECTION */
@@ -308,15 +314,80 @@
   }
 
   .hero-arta-about {
-    position: absolute; /* Positions the element absolutely within its containing element */
-    display: flex; /* Uses flexbox for layout */
-    justify-content: center; /* Centers the element horizontally */
-    align-items: center; /* Centers the element vertically */
-    margin: 0; /* Removes any default margin */
-    top: 50%; /* Positions the element vertically centered */
-    transform: translateY(
-      -50%
-    ); /* Adjusts the vertical position to center it */
-    left: 0; /* Aligns the element with the left edge of its containing element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  /* BEGINNING OF "DO YOU HAVE ANY QUESTIONS" SECTION */
+
+  .questions-h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .footer-bg {
+    padding: 2rem 0rem;
+    color: white;
+    background-color: var(--primaryColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .line,
+  .line-bottom {
+    display: block;
+    margin: 1rem 0rem;
+    height: 3px;
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+    background-color: var(--thirdColor);
+  }
+
+  .contact-margin {
+    margin-bottom: 1rem;
+  }
+
+  .contact-text p {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    text-align: center;
+    max-width: 320px;
+  }
+
+  label {
+    display: none;
+  }
+
+  .contact-form,
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    font-size: 0.8rem;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+  }
+
+  textarea {
+    font-size: 0.8rem;
+    padding: 4rem 2.5rem;
+    border-radius: 10px;
+    border: none;
   }
 }

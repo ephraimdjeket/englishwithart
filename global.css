@@ -176,8 +176,7 @@ a {
   background-color: var(--secondaryColor);
 }
 
-.dark-cyan-btn:hover,
-.aboutme-section {
+.dark-cyan-btn:hover {
   background-color: var(--primaryColor);
 }
 
