@@ -46,13 +46,20 @@ img {
   display: none;
 }
 
+/*NAVIGATION*/
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   position: sticky;
   top: 0;
   z-index: 999;
   background-color: white;
   width: 100%;
-  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0.5px 1px 1px);
 }
 
 a {
@@ -63,13 +70,8 @@ a {
 /* BEGINNING OF HERO SECTION */
 
 .hero-content {
-  max-width: 450px;
   padding: 2rem 2rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin: auto;
 }
 
@@ -94,10 +96,19 @@ a {
 .hero-arta {
   position: relative;
 }
+
 .english-box {
-  border-radius: 20px;
   position: absolute;
   cursor: pointer;
+}
+
+.english-flag {
+  width: 60px;
+  height: 60px;
+}
+
+.english-text {
+  font-size: 0.8rem;
 }
 
 .hero-buttons {
@@ -114,13 +125,15 @@ a {
   color: var(--secondaryColor);
 }
 
-.crimson {
+.crimson,
+.nav-links:hover {
   color: var(--thirdColor);
 }
 
 .dark-crimson-btn {
   background-color: var(--thirdColor);
   cursor: pointer;
+  transition: 0.5s ease;
 }
 
 .stroke-btn {
@@ -162,9 +175,22 @@ a {
 .dark-cyan-btn:hover,
 .stroke-btn:hover,
 .english-box:hover,
-.dark-cyan-btn,
-.stroke-btn {
+.dark-cyan-btn {
   color: white;
+  transition: 0.5s ease;
+}
+
+.dark-cyan-btn,
+.stroke-btn,
+.personal-btn,
+.dark-crimson-btn {
+  font-size: 0.8rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.dark-crimson-btn:hover {
+  background-color: #993939;
   transition: 0.5s ease;
 }
 
@@ -193,7 +219,6 @@ a {
 
 .features-wrapper {
   display: flex;
-  flex-direction: column;
   gap: 2rem;
   line-height: 1.5;
 }
@@ -218,7 +243,7 @@ a {
   filter: drop-shadow(rgba(0, 0, 0, 0.15) 0.5px 1px 1px);
 }
 
-/* BEGINNING OF "PROVIDED FEATURES" SECTION */
+/* BEGINNING OF "WHAT YOU CAN EXPECT" SECTION */
 
 .dark-teal {
   background-color: var(--primaryColor);
@@ -235,7 +260,6 @@ a {
 .bitmoji-floating-wrapper,
 .bitmoji-yes-wrapper {
   position: relative;
-  margin-bottom: 4rem;
 }
 
 .square-teal,
@@ -248,4 +272,22 @@ a {
 
 .services-section h2 {
   padding-bottom: 1rem;
+}
+
+/* BEGINNING OF "PRICE CARD" SECTION */
+
+.feature-price-card h2,
+h3 {
+  font-weight: 700;
+}
+
+.feature-price-card h3 {
+  color: var(--secondaryColor);
+}
+
+.hero-arta-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }

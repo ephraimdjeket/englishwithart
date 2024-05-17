@@ -1,0 +1,304 @@
+@media screen and (min-width: 34rem) {
+  /*NAVIGATION*/
+
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0rem 1rem;
+  }
+
+  ul.hide {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+  }
+
+  .nav-links {
+    color: black;
+  }
+
+  .logo-wrapper h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: -10px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  /* BEGINNING OF HERO SECTION */
+
+  .hero-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    align-items: left;
+    text-align: left;
+    margin: auto;
+    gap: 1rem;
+    padding: 4rem 0rem;
+  }
+
+  .hero-content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+  }
+
+  .welcome-text {
+    font-size: clamp(0.7rem, 5vw, 1rem);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .hero-title,
+  .hero-text {
+    padding: 1rem 0rem;
+  }
+
+  .hero-title {
+    font-weight: 700;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .hero-text {
+    line-height: 1.3;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+  }
+
+  .hero-special {
+    background-color: rgb(0, 98, 120, 0.2);
+    padding: 0.2rem 0.5rem;
+    border: 2px solid var(--secondaryColor);
+  }
+
+  .hero-buttons {
+    font-size: 0.8rem;
+    gap: 2rem;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .english-box {
+    height: 60px;
+    width: 200px;
+    top: 55%;
+    right: 35%;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .english-text {
+    font-size: 0.6rem;
+  }
+
+  .english-text h3 {
+    font-weight: 700;
+  }
+
+  /* BEGINNING OF "PROVIDED FEATURES" SECTION */
+
+  .features-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
+
+  .features-wrapper {
+    justify-content: center;
+    align-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+  }
+
+  .features-text p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .features-text h2,
+  .services-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .feature-card,
+  .feature-price-card {
+    max-width: 300px;
+  }
+
+  .feature-card h3 {
+    font-weight: 700;
+  }
+
+  .feature-card,
+  .feature-price-card {
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 10px;
+  }
+
+  .feature-card img {
+    width: 150px;
+  }
+
+  /* BEGINNING OF "WHAT YOU CAN EXPECT" SECTION */
+
+  .square-teal {
+    top: 10%;
+    left: -20px;
+  }
+
+  .square-cyan {
+    bottom: -30px;
+    left: 20px;
+  }
+
+  .square-teal-second {
+    bottom: 5%;
+    right: -20px;
+  }
+
+  .square-crimson {
+    bottom: -5%;
+    right: 5%;
+  }
+
+  .square-teal,
+  .square-cyan,
+  .square-teal-second,
+  .square-crimson {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .first-row,
+  .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .first-row h2,
+  .second-row h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .first-row p,
+  .second-row p {
+    max-width: 430px;
+  }
+
+  .bitmoji-floating,
+  .bitmoji-yes {
+    width: 400px;
+    padding: 1rem 2rem;
+  }
+
+  .bitmoji-floating-text,
+  .bitmoji-yes-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 0rem;
+  }
+
+  .dark-cyan-btn,
+  .dark-crimson-btn {
+    margin: 1rem 0rem;
+    max-width: 100px;
+  }
+
+  .second-row {
+    flex-direction: row-reverse;
+  }
+
+  .second-row h2 {
+    font-weight: 700;
+  }
+
+  .second-row p {
+    max-width: 430px;
+  }
+
+  .bitmoji-yes {
+    width: 400px;
+    padding: 1rem 2rem;
+    margin-right: 3rem;
+  }
+
+  .bitmoji-yes-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dark-cyan-btn {
+    margin: 1rem 0rem;
+    max-width: 100px;
+  }
+
+  .features-wrapper {
+    flex-direction: row;
+  }
+
+  /* BEGINNING OF "PRICE CARD" SECTION */
+
+  .feature-price-card h2 {
+    font-size: 1.3rem;
+  }
+
+  .feature-price-card h2,
+  h3 {
+    font-weight: 700;
+  }
+
+  .doller-sign {
+    font-size: 1.25rem;
+  }
+
+  .feature-price-card h3 {
+    font-size: 2.5rem;
+    color: var(--secondaryColor);
+  }
+
+  .hero-arta-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
