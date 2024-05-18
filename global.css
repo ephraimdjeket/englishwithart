@@ -46,6 +46,43 @@ img {
   display: none;
 }
 
+.box {
+  z-index: -999;
+  background:
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) top center/60px 60px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 10% 20%/70px 70px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 80% 30%/80px 80px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 50% 70%/90px 90px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 20% 80%/60px 60px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 70% 40%/50px 50px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 30% 60%/100px 100px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 90% 10%/110px 110px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 25% 15%/95px 95px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 15% 60%/65px 65px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 85% 80%/55px 55px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 70% 15%/45px 45px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 35% 40%/105px 105px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 45% 25%/60px 60px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 5% 75%/70px 70px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 95% 50%/80px 80px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 50% 30%/90px 90px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 50% 10%/90px 90px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 60% 20%/100px 100px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 25% 90%/110px 110px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 80% 70%/85px 85px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 30% 50%/65px 65px no-repeat,
+    radial-gradient(circle, var(--primaryColor) 50%, transparent 50%) 75% 85%/95px 95px no-repeat,
+    radial-gradient(circle, var(--thirdColor) 50%, transparent 50%) 50% 90%/55px 55px no-repeat;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
 /*NAVIGATION*/
 
 .logo-wrapper {
@@ -77,10 +114,11 @@ a {
   position: relative;
 }
 
-.hero-content {
-  padding: 2rem 2rem;
-  display: flex;
-  margin: auto;
+.hero-arta {
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
 }
 
 .welcome-text,
