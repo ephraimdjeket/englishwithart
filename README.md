@@ -2,6 +2,9 @@
 ![image](https://github.com/ephraimdjeket/englishwithart/assets/45997915/76f20930-6547-46e2-9d2a-558db28a4c7b)
 
 [Live demo](https://englishwithart.netlify.app/)
+[Figma Desktop design](https://www.figma.com/design/zTJPEpPmyj5NGfageMLHkc/englishwithart?node-id=1%3A2&t=qN4CR0QfZya5Jqiu-1)
+[Figma Mobile design](https://www.figma.com/design/zTJPEpPmyj5NGfageMLHkc/englishwithart?node-id=30%3A4&t=qN4CR0QfZya5Jqiu-1)
+(Design might be outdated)
 
 English with Art is a simple and static website designed to make learning English enjoyable through art-based activities. The project is built using HTML/CSS and JavaScript, offering a seamless user experience while exploring various aspects of the English language.
 
