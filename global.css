@@ -254,16 +254,6 @@ a {
   font-style: bold;
   filter: drop-shadow(rgba(0, 0, 0, 0.15) 0.5px 1px 1px);
   cursor: pointer;
-  transition: transform 0.5s ease, box-shadow 0.3s ease, top 0.3s ease;
-  position: relative;
-}
-
-.feature-card:hover,
-.feature-price-card:hover {
-  transform: scale(1.1);
-  transition: 0.5s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  top: -5px;
 }
 
 /* BEGINNING OF "WHAT YOU CAN EXPECT" SECTION */
