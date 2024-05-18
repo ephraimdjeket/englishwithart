@@ -67,7 +67,15 @@ a {
   text-decoration: none;
 }
 
+.dertzey {
+  text-decoration: underline;
+}
+
 /* BEGINNING OF HERO SECTION */
+
+.hero-wrapper {
+  position: relative;
+}
 
 .hero-content {
   padding: 2rem 2rem;
@@ -126,11 +134,14 @@ a {
 }
 
 .crimson,
-.nav-links:hover {
+.nav-links:hover,
+.dertzey:hover,
+.insta:hover {
   color: var(--thirdColor);
 }
 
-.dark-crimson-btn {
+.dark-crimson-btn,
+.submit-btn {
   background-color: var(--thirdColor);
   cursor: pointer;
   transition: 0.5s ease;
@@ -189,7 +200,8 @@ a {
   padding: 0.5rem 1rem;
 }
 
-.dark-crimson-btn:hover {
+.dark-crimson-btn:hover,
+.submit-btn:hover {
   background-color: #993939;
   transition: 0.5s ease;
 }
@@ -241,6 +253,17 @@ a {
   font-size: 1rem;
   font-style: bold;
   filter: drop-shadow(rgba(0, 0, 0, 0.15) 0.5px 1px 1px);
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.3s ease, top 0.3s ease;
+  position: relative;
+}
+
+.feature-card:hover,
+.feature-price-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  top: -5px;
 }
 
 /* BEGINNING OF "WHAT YOU CAN EXPECT" SECTION */
@@ -276,8 +299,7 @@ a {
 
 /* BEGINNING OF "PRICE CARD" SECTION */
 
-.feature-price-card h2,
-h3 {
+.feature-price-card h2 {
   font-weight: 700;
 }
 
@@ -290,4 +312,75 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: auto;
+  width: 300px;
+}
+
+/* BEGINNING OF "GET TO KNOW ME" SECTION */
+
+.footer-bg {
+  position: relative;
+}
+
+.aboutme-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: auto;
+  text-align: left;
+  padding: 1rem 0rem;
+  line-height: 1.5;
+  color: black;
+  max-width: 320px;
+}
+
+.aboutme-section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+/* BEGINNING OF "DO YOU HAVE ANY QUESTIONS" SECTION */
+
+.bitmoji-questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.line,
+.line-bottom {
+  display: block;
+  margin: auto;
+  background-color: var(--thirdColor);
+}
+
+.submit-btn {
+  color: white;
+  margin: auto;
+  margin: 2rem;
+}
+
+.contact-form,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+input {
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  font-size: 0.8rem;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  border: none;
 }
