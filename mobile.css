@@ -286,17 +286,12 @@
     font-size: 1.3rem;
   }
 
-  .feature-price-card h2,
-  h3 {
+  .feature-price-card h2 {
     font-weight: 700;
   }
 
-  .doller-sign {
-    font-size: 1.25rem;
-  }
-
   .feature-price-card h3 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   /* BEGINNING OF "GET TO KNOW ME" SECTION */

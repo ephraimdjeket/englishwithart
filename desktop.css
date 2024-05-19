@@ -289,14 +289,6 @@
     font-weight: 700;
   }
 
-  .doller-sign {
-    font-size: 1.25rem;
-  }
-
-  .feature-price-card h3 {
-    font-size: 2.5rem;
-    color: var(--secondaryColor);
-  }
 
   .hero-arta-about {
     display: flex;
