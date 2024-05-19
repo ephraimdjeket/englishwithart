@@ -15,9 +15,11 @@ Key Features:
 - Customizable Learning Paths: Tailor your learning experience by selecting specific topics or areas of interest.
 
 How to Contribute:
+
 Contributions to English with Art are welcome! If you have ideas for new features, improvements, or bug fixes, please feel free to submit a pull request. Additionally, you can help by spreading the word about the project and providing feedback to help us make it even better.
 
 Get Started:
+
 To get started with English with Art, you can follow these steps to clone the GitHub repository to your local machine:
 
 1. Open a terminal or command prompt.
